@@ -148,7 +148,7 @@ export default function Navbar({ cartItems = [] }) {
 
   return (
     <nav className="shadow-md fixed top-0 left-0 w-full z-50 bg-gradient-to-r from-blue-100 to-purple-200">
-      <div className="max-w-screen-xl mx-auto flex justify-between items-center py-3 px-6">
+      <div className="max-w-screen-xl mx-auto flex justify-between items-center py-3.5 px-6" >
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
           <img
@@ -256,8 +256,8 @@ export default function Navbar({ cartItems = [] }) {
                 ) : (
                   <Link
                     to="/login"
-                    className="block px-4 py-2 hover:bg-blue-400 hover:text-white"
-                  >
+                    className="block px-4 py-2.5 hover:bg-blue-400 hover:text-white"
+                    onClick={() => setProfileOpen(false)}>
                     Login
                   </Link>
                 )}
