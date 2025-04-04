@@ -1,6 +1,4 @@
 
-
-
 import React, { useState } from "react";
 import { FaHeart, FaRegHeart, FaStar, FaStarHalfAlt, FaShoppingCart } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";

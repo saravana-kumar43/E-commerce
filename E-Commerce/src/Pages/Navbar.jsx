@@ -218,5 +218,4 @@ export default function Navbar({ cartItems = [] }) {
       )}
     </nav>
   );
-}
-
+} 
