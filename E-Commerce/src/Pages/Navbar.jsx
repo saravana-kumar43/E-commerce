@@ -91,7 +91,7 @@ export default function Navbar({ cartItems = [] }) {
           </div>
 
           {/* User Profile Dropdown */}
-          <div className="relative profile-menu flex flex-col justify-center items-center top-2 ml-1">
+          <div className="relative profile-menu flex flex-col justify-center items-center top-0.5 ml-1">
             {/* Profile Icon */}
             <button
               className="p-1.5  rounded-full bg-gray-100 hover:bg-gray-200 transition"
@@ -195,13 +195,6 @@ export default function Navbar({ cartItems = [] }) {
                   Contact
                 </Link>
               </li>
-              {/* {!user && (
-                <li>
-                  <Link to="/login" className="block py-2 hover:text-blue-500">
-                    Login
-                  </Link>
-                </li>
-              )} */}
               {user && (
                 <li>
                   <button
